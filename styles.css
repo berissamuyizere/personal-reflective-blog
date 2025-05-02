@@ -221,3 +221,13 @@ text-align: center;
 .footer-copyright a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 600px){
+    nav{
+        flex-wrap:wrap
+    }
+    .nav-links{
+        flex-wrap: wrap;
+    }
+}
+
